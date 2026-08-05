@@ -1,8 +1,7 @@
 # **Optimización de asignación de turnos de operación**
 ![Logo](Holafly-logo.svg.webp)
 
-## **Descripción del problema**
-
+## <font color='#E7485C'> **Descripción del problema** </font>
 El departamento de ventas de la empresa Holafly, cuenta con 60 colaboradores distribuidos entre tres mercados (América, Europa y Asia). Cada día de una semana de planificación, los colaboradores pueden ser asignados a uno de tres turnos de trabajo (mañana, tarde o noche), cada uno con una duración de ocho horas. El objetivo es diseñar un modelo de optimización que determine la asignación diaria de turnos para cada colaborador, de manera que la disponibilidad de personal se ajuste lo mejor posible al personal requerido en cada mercado y turno, respetando las restricciones laborales y de disponibilidad de los colaboradores.
 
 A continuación, se definen explícitamente los elementos que deben considerarse en la modelación:
