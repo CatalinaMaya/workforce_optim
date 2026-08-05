@@ -1,4 +1,4 @@
-# <font color='#E7485C'> ** Optimización de asignación de turnos de operación** </font>
+# <font color='#E7485C'> **Optimización de asignación de turnos de operación** </font>
 
 ## <font color='#E7485C'> **Descripción del problema** </font>
 
