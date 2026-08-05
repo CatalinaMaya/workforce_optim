@@ -105,14 +105,16 @@ $$f_{dtm} \geq 0$$
 | **🚀 Ejecutar Optimización** | Construye el modelo con los datos actuales y lo resuelve. |
   
 - _Pestaña "Instancia_
-Muestra, antes de optimizar, cómo quedaron los datos de entrada:
+  
+  Muestra, antes de optimizar, cómo quedaron los datos de entrada:
   - Gráfico de barras de disponibilidad total por día y turno.
   - Gráfico de barras de personal requerido por día y turno.
   - Tabla completa de personal requerido desplegable.
 
-Sirve para verificar visualmente los insumos del modelo antes de correrlo, para explicar qué está entrando al optimizador.
+  Sirve para verificar visualmente los insumos del modelo antes de correrlo, para explicar qué está entrando al optimizador.
 
 - _Pestaña "Resultados_
+  
   **Métricas:**
   - Total asignaciones: número de turnos efectivamente cubiertos.
   - Utilización de headcount: % del total colaborador-días disponibles que se usó.
