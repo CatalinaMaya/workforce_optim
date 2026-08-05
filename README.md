@@ -87,6 +87,7 @@ $$e_{dtm} \geq 0$$
 $$f_{dtm} \geq 0$$
 
 ---
+
 ## **3. Implementación**
 
 [Visitar interfaz interactiva 🚀](https://workforceholafly.streamlit.app/)
