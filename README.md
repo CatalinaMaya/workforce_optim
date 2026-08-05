@@ -90,7 +90,7 @@ $$f_{dtm} \geq 0$$
 
 ## **3. Implementación**
 
-[Visitar interfaz interactiva 🚀](https://workforceholafly.streamlit.app/)
+[Visitar interfaz🚀](https://workforceholafly.streamlit.app/)
 
 ### Guía de la interfaz
 
