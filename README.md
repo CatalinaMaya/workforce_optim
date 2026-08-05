@@ -32,6 +32,8 @@ A continuación, se definen explícitamente los elementos que deben considerarse
 ### **Supuestos**
 - Cada colaborador puede atender cualquiera de los tres mercados
 
+---
+
 ## **2. Modelación**
 ### Conjuntos
 - $C:$ Colaboradores ($i$)
@@ -84,9 +86,10 @@ $$x_{idtm} \in {0,1}$$
 $$e_{dtm} \geq 0$$
 $$f_{dtm} \geq 0$$
 
+---
 ## **3. Implementación**
 
-[Visitar interfaz interactiva](https://workforceholafly.streamlit.app/)
+[Visitar interfaz interactiva 🚀](https://workforceholafly.streamlit.app/)
 
 ### Guía de la interfaz
 
