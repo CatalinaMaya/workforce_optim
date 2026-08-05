@@ -106,29 +106,29 @@ $$f_{dtm} \geq 0$$
   
 - _Pestaña "Instancia_
 Muestra, antes de optimizar, cómo quedaron los datos de entrada:
-- Gráfico de barras de disponibilidad total por día y turno.
-- Gráfico de barras de personal requerido por día y turno.
-- Tabla completa de personal requerido desplegable.
+  - Gráfico de barras de disponibilidad total por día y turno.
+  - Gráfico de barras de personal requerido por día y turno.
+  - Tabla completa de personal requerido desplegable.
 
 Sirve para verificar visualmente los insumos del modelo antes de correrlo, para explicar qué está entrando al optimizador.
 
 - _Pestaña "Resultados_
-**Métricas:**
-- Total asignaciones: número de turnos efectivamente cubiertos.
-- Utilización de headcount: % del total colaborador-días disponibles que se usó.
-- Desviación total (obj.): valor de la función objetivo — suma de exceso + déficit en todo el periodo. Cuanto más bajo, mejor ajustada quedó la asignación a la demanda.
-- Turnos con déficit: cuántas combinaciones día-turno-mercado quedaron por debajo de lo requerido.
-- Tiempo del solver: cuánto tardó en resolver el modelo de optimización.
+  **Métricas:**
+  - Total asignaciones: número de turnos efectivamente cubiertos.
+  - Utilización de headcount: % del total colaborador-días disponibles que se usó.
+  - Desviación total (obj.): valor de la función objetivo — suma de exceso + déficit en todo el periodo. Cuanto más bajo, mejor ajustada quedó la asignación a la demanda.
+  - Turnos con déficit: cuántas combinaciones día-turno-mercado quedaron por debajo de lo requerido.
+  - Tiempo del solver: cuánto tardó en resolver el modelo de optimización.
 
-**Gráficos:**
-- Requerido vs. asignado, agregado por turno y por mercado.
-- Evolución diaria de requerido vs. asignado.
-- Mapa de calor de déficit/exceso neto por turno-mercado.
-- Distribución de turnos asignados por colaborador (para verificar balance de carga).
+  **Gráficos:**
+  - Requerido vs. asignado, agregado por turno y por mercado.
+  - Evolución diaria de requerido vs. asignado.
+  - Mapa de calor de déficit/exceso neto por turno-mercado.
+  - Distribución de turnos asignados por colaborador (para verificar balance de carga).
 
-**Tablas y exportación:**
-- Tabla de resumen (cobertura por día/turno/mercado) y tabla de asignación detallada (colaborador → día, turno, mercado).
-- Los resultados quedan guardados automáticamente en `outputs/asignaciones.xlsx` y `outputs/resumen.xlsx` al correr el modelo.
+  **Tablas y exportación:**
+  - Tabla de resumen (cobertura por día/turno/mercado) y tabla de asignación detallada (colaborador → día, turno, mercado).
+  - Los resultados quedan guardados automáticamente en `outputs/asignaciones.xlsx` y `outputs/resumen.xlsx` al correr el modelo.
 
 ---
 
