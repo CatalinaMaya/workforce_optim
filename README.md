@@ -63,18 +63,23 @@ min $\sum_{d \in D}\sum_{t \in T}\sum_{m \in M} (e_{dtm} + f_{dtm})$
 $$\sum_{t \in T}\sum_{m \in M} x_{idtm}\leq 1 \forall i \in C, d \in D$$
 
 2. Respetar disponibilidad: Un colaborador solo puede ser asignado si está disponible.
+
 $$\sum_{m \in M} x_{idtm}\leq A_{ids} \forall i \in C, d \in D, t\in T$$
 
 3. Balance entre asignación y requerimiento: La diferencia entre personal asignado y requerido se representa mediante exceso y déficit.
+
 $$\sum_{i \in C} x_{idtm} - R_{dtm} = e_{dtm} - f_{dtm} \forall d \in D, t \in T, m\in M$$
 
 4. Descanso después de turno de noche
+
 $$\sum_{m \in M} x_{id,t_N,m} + \sum_{m \in M} x_{i,d+1,t_M,m} \leq 1 \forall i, d = 1, ..., 7$$
 
 5. Mínimo de descanso semanal: Cada colaborador debe tener al menos un día sin asignación.
+
 $$\sum_{d \in D}\sum_{t \in T}\sum_{m \in M} x_{idtm}\leq 6 \forall i \in C$$
 
 6. Tipo de variables
+
 $$x_{idtm} \in {0,1}$$
 $$e_{dtm} \geq 0$$
 $$f_{dtm} \geq 0$$
