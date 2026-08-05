@@ -1,4 +1,5 @@
 <img src="Holafly-logo.svg.webp" alt="Logo" width="200">
+
 # **Optimización de asignación de turnos de operación**
 
 ## <font color='#E7485C'> **Descripción del problema** </font>
