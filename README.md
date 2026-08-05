@@ -94,16 +94,14 @@ $$f_{dtm} \geq 0$$
 
 | Parámetro | Qué hace |
 |---|---|
-| **Origen de los datos** | `Generar aleatoriamente`: crea A y R con los parámetros de abajo. `Cargar desde data/*.xlsx`: usa los archivos existentes en `data/`, ignorando los sliders de generación. |
+| **Origen de los datos** | `Generar aleatoriamente`: crea A y R con los parámetros habilitados en la barra lateral `Cargar desde data/*.xlsx`: usa los archivos existentes en `data/`|
 | **Total de colaboradores** | Tamaño del equipo a asignar (por defecto 60). |
-| **Mercados** | Lista separada por comas (por defecto `America, Europa, Asia`). Puedes escribir los nombres reales de los mercados de Holafly. |
+| **Mercados** | Lista separada por comas (por defecto `America, Europa, Asia`). |
 | **Días** | Fijo: Lunes a Domingo. No editable, porque la restricción de descanso post-turno-noche depende del orden de los días. |
 | **Turnos** | Fijo: Mañana, Tarde, Noche. No editable — el modelo referencia estas etiquetas exactas internamente. |
 | **Probabilidad de disponibilidad (%)** | Probabilidad de que un colaborador esté disponible en un turno/día dado (por defecto 90%). Solo aplica si el origen es "Generar aleatoriamente". |
 | **Rango de personal requerido** | Rango (mínimo, máximo) del que se sortea el requerido por turno/mercado/día (por defecto 4–10). |
-| **Semilla aleatoria** | Fija la aleatoriedad para que la instancia sea reproducible (por defecto 10, igual que la instancia de prueba original). |
 | **Guardar esta instancia en data/*.xlsx** | Checkbox que, al generar, sobreescribe los archivos en `data/` con la instancia actual — útil para dejar fija la versión que usarás en una demo. |
-| **Solver** | `appsi_highs` (recomendado, sin instalación de sistema), `glpk` o `cbc` (requieren binarios instalados aparte). |
 | **🚀 Ejecutar Optimización** | Construye el modelo con los datos actuales y lo resuelve. |
   
 - _Pestaña "Instancia_
